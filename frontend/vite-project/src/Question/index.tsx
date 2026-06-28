@@ -4,13 +4,13 @@ const Question = ({level}:{level:number}) => {
         switch(level) {
             case 1: return <div>
                 <div>
-                <h1 style={{color:"#261813"}}>What is your gender?</h1>
+                <h1 style={{color:"#261813",fontSize:"10rem"}}>What is your gender?</h1>
             <input type="radio" value="Male"></input>
             <input type="radio" value="Female"></input>
             </div>
             
             <div>
-                <h1 style={{color:"#261813"}}>What is your age?</h1>
+                <h1 style={{color:"#261813",fontSize:"10rem"}}>What is your age?</h1>
                 <input type="radio"></input>
                 <input type="radio" value="20-30"></input>
                 <input type="radio" value="30-40"></input>
