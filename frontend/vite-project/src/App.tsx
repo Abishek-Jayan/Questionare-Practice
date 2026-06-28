@@ -4,7 +4,7 @@ import QuestionForm from './QuestionForm'
 function App() {
   return (
     <>
-      <LoginForm/>
+      {/* <LoginForm/> */}
       <QuestionForm/>
     </>
   )
