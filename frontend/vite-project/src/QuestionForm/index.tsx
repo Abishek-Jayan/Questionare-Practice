@@ -4,8 +4,8 @@ import VerticalStepper from "../VerticalStepper";
 import "./index.css";
 const QuestionForm = () => {
     const [level,setLevel] = useState(1);
-    return (<>
-    <div style={{display:"flex",margin:"3rem"}}>
+    return (
+    <div className="form-parent" style={{display:"flex",margin:"auto"}}>
         <div >
             <h1 style={{fontSize:"30rem"}}>Mind Mender</h1>
             <p style={{fontSize:"10rem"}}>Take care of your mental health <br/> Follow the 5 simple steps to fill in your information so that we can offer you the best specialist</p>
@@ -20,7 +20,7 @@ const QuestionForm = () => {
     </div>
        
 
-    </>)
+    )
 };
 
 export default QuestionForm;
