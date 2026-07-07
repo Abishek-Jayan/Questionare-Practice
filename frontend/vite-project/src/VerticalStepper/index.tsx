@@ -35,7 +35,7 @@ const VerticalStepper = ({level}:{level:number}) => {
                 { element.curlevel < level ? <img src="../../public\assets\complete.PNG"/>: <img src="../../public\assets\inprogress.PNG"/>}
                 
                 <div>
-                    <h1>{element.title}</h1>
+                    <p><b>{element.title}</b></p>
                     <p>{element.detail}</p>
                 </div>
             </div>))
